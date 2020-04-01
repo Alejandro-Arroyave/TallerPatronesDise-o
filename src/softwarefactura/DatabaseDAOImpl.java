@@ -71,7 +71,7 @@ public class DatabaseDAOImpl implements DatabaseDAO {
     @Override
     public void eliminarItem(int id) {
         String res = Db.eliminarItem(id);
-        System.out.println(res);<
+        System.out.println(res);
     }
 
     @Override
